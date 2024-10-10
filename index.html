@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    article{
+        padding: 0% 6%;
+    }
+    section{
+        display: flex;
+        width:100%;
+    }
+   .header-element .container-header{
+display:flex;
+justify-content: space-between;
+width:100%;
+   } 
+
+   .header-element .container-header header{
+    display: flex;
+    gap:8px;
+   }
+   .item-navegacion ul{
+    display: flex;
+    gap:32px;
+   }
+   .item-navegacion ul li{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    list-style: none;
+
+   }
+   .tituloH1 h1{
+    color: var(--preto-100, #464646);
+font-family: Raleway;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+   }
+   .talentos a{
+color: var(--preto-100, #464646);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+   }
+   .talentos a::after{
+content:url("src/row.svg");
+position: relative;
+    top: 7px;
+   }
+   .containerFoto img{
+    max-width: 240px;
+    width: 100%;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 58%;
+   }
+   .seccion-informacion{
+    padding:64px 0;
+    flex-direction: column;
+   }
+</style>
+<body>
+    <article>
+        <section class="header-element">
+    <div class="container-header"> 
+        <header>
+            <img src="src/logo.svg"><h4>KEVIN BUJATO</h4>
+        </header>
+        <nav class="item-navegacion">
+            <ul>
+                <li>Sobre mí</li>
+                <li>Skills</li>
+                <li>Hobbies</li>
+                <li>Formación</li>
+                <li>Proyectos</li>
+                <li>contacto@fulana.com</li>
+            </ul>
+        </nav>
+    </div>
+    </section>
+        <section>
+            <div>
+                <div class="tituloH1">
+                    <h1>Hola, mi nombre es KEVIN BUJATO y construyo paginas web</h1>    
+</div>
+                <div>
+                    <p>
+                        Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam. 
+                    </p>
+                </div>
+                <div class="talentos">
+                    <a>Github</a>
+                    <a>Linkedin</a>
+                    <a>Instagram</a>
+                    <a>Currículo</a>
+                </div>
+            </div>
+            <div class="containerFoto">
+                <img src="src/foto.jpg">
+            </div>
+        </section>
+<section class="seccion-informacion">
+<h2>Sobre mi</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+</section>
+    </article>
+</body>
+</html>
